@@ -6,7 +6,7 @@ from starlette.status import HTTP_404_NOT_FOUND
 from typing import Optional
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
-app = FastAPI()
+app = FastAPI() # Create an instance of the FastAPI class
 
 class Item(BaseModel):
     name: str
