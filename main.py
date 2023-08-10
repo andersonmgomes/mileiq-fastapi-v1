@@ -51,8 +51,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 @app.post("/token/")
 def generate_token(form_data: OAuth2PasswordRequestForm = Depends()):
     # Check the user's credentials and return a token
-    return 'token'
-
+    pass
 
 if __name__ == "__main__":
     import uvicorn
