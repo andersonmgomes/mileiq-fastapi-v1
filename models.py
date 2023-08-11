@@ -14,7 +14,7 @@ class Vehicle(BaseModel):
     nickname: str
 
 class Drive(BaseModel):
-    vehicle: str  # This will be the nickname of the vehicle
+    vehicle: str  # This will be the the vehicle
     start_location: str
     end_location: str
     type: str  # either 'business' or 'personal'
